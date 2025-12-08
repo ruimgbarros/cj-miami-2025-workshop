@@ -1,0 +1,165 @@
+---
+title: "AI Agents: License to Do Journalism"
+subtitle: "Building Practical AI Workflows for Newsroom Challenges"
+author: "Rui Barros, PÚBLICO"
+date: "December 11-12, 2025"
+format:
+  html:
+    toc: true
+---
+
+## Welcome to the Workshop
+
+This workshop introduces six proven AI agent architectures that solve real newsroom challenges. You'll learn to build practical "AI recipes" for journalism tasks—from document analysis to fact-checking workflows.
+
+**No advanced programming required**—materials are designed for participants with varying technical backgrounds.
+
+## Workshop Overview
+
+**Duration**: 1.5 hours (90 minutes)
+**Format**: Interactive notebooks with hands-on examples
+**Location**: University of Miami, Newman Alumni Center
+
+### What You'll Learn
+
+1. When to use AI agents vs. simple prompting
+2. Six proven agent architectures for journalism
+3. How to build ethical AI workflows with human oversight
+4. Integration strategies for newsroom tools
+
+## Six Agent Patterns
+
+### 1. Augmented LLM: Source Verification
+Verify credibility of sources and cross-reference claims using enhanced LLMs with access to fact-checking databases.
+
+### 2. Prompt Chaining: Document Analysis
+Multi-step analysis of complex documents—extract → summarize → fact-check → highlight key findings.
+
+### 3. Routing: Story Classification
+Automatically categorize and route incoming news/tips to appropriate beats and workflows.
+
+### 4. Parallelization (Sectioning): Multi-Source Research
+Research same topic across different databases/sources simultaneously.
+
+### 5. Parallelization (Voting): Claim Verification
+Verify disputed facts by checking against multiple methodologies and comparing results.
+
+### 6. Orchestrator-Workers: Complex Investigation
+Coordinate multi-faceted investigations with different data types and sources.
+
+## Workshop Structure
+
+```mermaid
+graph LR
+    A[Introduction<br/>10 min] --> B[Six Patterns<br/>50 min]
+    B --> C[Hands-on Practice<br/>20 min]
+    C --> D[Wrap-up<br/>10 min]
+```
+
+### Timeline
+
+- **00:00-00:10** (10 min): Introduction & Context
+  - What are AI agents?
+  - When to use them in journalism
+  - Workshop roadmap
+
+- **00:10-00:60** (50 min): Six Patterns (~8 min each)
+  - Concept explanation
+  - Architecture diagram
+  - Journalism use case
+  - Live demonstration
+  - Q&A
+
+- **00:60-00:80** (20 min): Hands-on Practice
+  - Work with pre-built examples
+  - Choose your complexity level
+  - Instructors available for help
+
+- **00:80-00:90** (10 min): Wrap-up & Resources
+  - Ethical considerations
+  - When NOT to use agents
+  - Resource list
+  - Follow-up materials
+
+## Getting Started
+
+### Choose Your Level
+
+This workshop accommodates different technical backgrounds:
+
+::: {.panel-tabset}
+
+#### 🎯 Conceptual Track
+**For non-coders**: Focus on understanding patterns, use cases, and ethical implications.
+- Read explanations and use cases
+- View architecture diagrams
+- See demonstrations
+- Discuss applications to your newsroom
+
+#### 🛠️ Guided Track
+**For some coding experience**: Follow along with pre-built examples.
+- Understand the code structure
+- Run provided examples
+- Modify simple parameters
+- See results in action
+
+#### 🚀 Adaptive Track
+**For developers**: Customize and extend the examples.
+- Study implementation details
+- Adapt patterns to your needs
+- Build your own variations
+- Integrate with your tools
+
+:::
+
+## Prerequisites
+
+### What to Bring
+- Laptop with internet connection
+- Curiosity about AI in journalism
+- (Optional) API key for Claude if you want to run examples
+
+### No Required Installation
+All examples can be viewed and understood without running code. For those who want to run examples, instructions are provided in each notebook.
+
+## Ethical Framework
+
+Throughout this workshop, we emphasize:
+
+::: {.callout-important}
+## Critical Considerations
+- **Human Oversight**: AI as augmentation, not replacement
+- **Transparency**: Clear disclosure of automated processes
+- **Accuracy**: Verification requirements and hallucination risks
+- **Privacy**: Data handling and source protection
+- **Bias**: Recognition and mitigation strategies
+:::
+
+## Resources
+
+All workshop materials are available in this repository:
+
+- 📓 **Interactive Notebooks**: Step-by-step guides for each pattern
+- 💻 **Code Examples**: Ready-to-use implementations in Python and JavaScript
+- 📊 **Sample Datasets**: Practice data for exercises
+- 📚 **Additional Reading**: References and further learning
+
+## Navigation
+
+Use the navigation bar above to access:
+- **Workshop Notebooks**: Seven notebooks covering introduction and six patterns
+- **Resources**: Additional materials, references, and datasets
+
+## Contact
+
+**Rui Barros**
+Data Journalist, PÚBLICO
+Email: rui.barros@publico.pt
+Website: https://ruibarros.me
+
+---
+
+:::{.callout-note}
+## About This Workshop
+Developed for the Computation + Journalism Symposium 2025, organized by the University of Miami. Based on agent patterns from Anthropic's "Building Effective Agents" and practical implementations at PÚBLICO.
+:::

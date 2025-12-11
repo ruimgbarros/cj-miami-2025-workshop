@@ -1,31 +1,35 @@
 # Quarto
+_site/
+*_files/
 /.quarto/
-/_site/
-/docs/
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+.Rproj.user/
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 .Python
 env/
 venv/
-ENV/
-.venv
+.venv/
+*.egg-info/
+.pytest_cache/
 
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# API Keys & Secrets
-.env
-.env.local
-*.key
-*-credentials.json
+# System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # IDE
 .vscode/
@@ -34,15 +38,9 @@ yarn-error.log*
 *.swo
 *~
 
-# OS
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
 
-# Temporary files
-*.tmp
-*.bak
+# Logs
 *.log
-
-# Output files
-*.pdf
-!resources/**/*.pdf

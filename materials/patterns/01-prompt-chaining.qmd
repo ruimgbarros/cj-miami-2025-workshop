@@ -1,0 +1,43 @@
+---
+title: "Pattern 1: Prompt Chaining"
+subtitle: "Sequential Document Analysis Pipeline"
+---
+
+## What Is This Pattern?
+
+Prompt chaining is like an assembly line for processing information. Instead of asking AI to do everything at once (which often leads to errors or incomplete analysis), you break the work into sequential steps where each step's output becomes the next step's input.
+
+The magic is in the chaining: each AI call builds on the previous one's work, gradually refining raw data into something we can work with.
+
+## How It Works
+
+### Conceptual Overview
+
+Instead of counting on one single call to the model, we can chain the output of one model into another.
+
+### Architecture Diagram
+
+```{mermaid}
+%%| fig-width: 8
+%%| fig-cap: "Prompt Chaining: Sequential Processing Pipeline"
+
+graph LR
+    In[Input]:::input --> LLM1[LLM Call 1]:::llm
+    LLM1 -->|Output 1| LLM2[LLM Call 2]:::llm
+    LLM2 -->|Output 2| LLM3[LLM Call 3]:::llm
+    LLM3 -->|Output 3| Out[Final Output]:::output
+
+    classDef input fill:#8B4444,stroke:#6B3333,color:#fff
+    classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
+    classDef output fill:#8B4444,stroke:#6B3333,color:#fff
+```
+
+![Prompt chaining in action](../images/prompt_chain.jpg){width="80%"}
+
+# Use Cases
+
+This was my first "pattern" and it's probably the most logical. In my use case:
+
+- For the 2025 elections in Portugal we had about 200 pages * eight parties' programs. We wanted to extract all political measures from all parties.
+- We wanted to categorize each measure into a set of predefined categories
+- We wanted to score measures by "newsworthiness"

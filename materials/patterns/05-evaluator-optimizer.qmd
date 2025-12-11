@@ -1,0 +1,51 @@
+---
+title: "Pattern 5: Evaluator-Optimizer"
+subtitle: "Iterative Quality Improvement"
+---
+
+## What Is This Pattern?
+
+Evaluator-Optimizer is like having a writer and editor work together iteratively. One AI generates content, another evaluates it and provides feedback, and the first AI revises based on that feedback. This cycle continues until quality standards are met.
+
+This pattern excels when you need high-quality output and can afford multiple iterations.
+
+## How It Works
+
+### Conceptual Overview
+
+A generator AI creates initial output, an evaluator AI critiques it and suggests improvements, the generator revises, and the cycle repeats until quality thresholds are met or maximum iterations reached.
+
+### Architecture Diagram
+
+```{mermaid}
+%%| fig-width: 8
+%%| fig-cap: "Evaluator-Optimizer: Iterative Quality Improvement"
+
+graph LR
+    In[Input]:::input --> Gen1[Generator]:::llm
+    Gen1 -->|Draft| Eval[Evaluator]:::llm
+    Eval -->|Pass| Out[Output]:::output
+    Eval -->|Fail + Feedback| Gen2[Generator<br/>Revision]:::llm
+    Gen2 -->|Revised Draft| Eval
+
+    classDef input fill:#8B4444,stroke:#6B3333,color:#fff
+    classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
+    classDef output fill:#8B4444,stroke:#6B3333,color:#fff
+```
+
+![Generation-evaluation loop](../images/gen_eval.jpg){width="80%"}
+
+# Use Cases
+
+Evaluator-Optimizer is perfect when quality is paramount. I think I've only used as a prompt refiner:
+
+- I had a set of very messy pdf files with very little structure.
+- I created a prompt that extracted data from one pdf, but the results were inconsistent.
+- I created an evaluator prompt that checked the output for completeness and correctness.
+- I set up a loop where the generator produced output, the evaluator checked it, and if it failed, the generator revised based on feedback.
+- This continued until the output met quality standards or a maximum number of iterations was reached.
+
+::: {.callout-warning}
+## Cost Warning
+This pattern can be 💸💸💸 expensive! Each iteration means multiple API calls (generator + evaluator), and costs compound quickly. Set maximum iteration limits and monitor your API usage carefully.
+:::

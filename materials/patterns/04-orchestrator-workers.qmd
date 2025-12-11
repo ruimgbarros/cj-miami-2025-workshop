@@ -1,0 +1,56 @@
+---
+title: "Pattern 4: Orchestrator-Workers"
+subtitle: "Coordinated Specialist Agents"
+---
+
+## What Is This Pattern?
+
+Orchestrator-Workers is like an editor coordinating multiple specialized reporters. A central "orchestrator" agent delegates tasks to "worker" agents with specific expertise, monitors their progress, and integrates their findings into a coherent final product.
+
+This pattern is ideal for complex investigations where different aspects require different expertise. The orchestrator plans the work, assigns tasks, and synthesizes results - much like an editor manages a team on a major investigation.
+
+It's like combining routing and parallelization with an added layer of coordination and synthesis.
+
+## How It Works
+
+### Conceptual Overview
+
+A central orchestrator agent breaks down complex tasks, delegates to specialized worker agents, coordinates their activities, and synthesizes results into a unified output.
+
+### Architecture Diagram
+
+```{mermaid}
+%%| fig-width: 8
+%%| fig-cap: "Orchestrator-Workers: Coordinated Specialist Agents"
+
+graph TB
+    In[Input]:::input --> Orch1[Orchestrator<br/>Planning]:::llm
+
+    Orch1 --> Worker1[Worker 1]:::llm
+    Orch1 --> Worker2[Worker 2]:::llm
+    Orch1 --> Worker3[Worker 3]:::llm
+
+    Worker1 --> Orch2[Orchestrator<br/>Integration]:::llm
+    Worker2 --> Orch2
+    Worker3 --> Orch2
+
+    Orch2 --> Out[Output]:::output
+
+    classDef input fill:#8B4444,stroke:#6B3333,color:#fff
+    classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
+    classDef output fill:#8B4444,stroke:#6B3333,color:#fff
+```
+
+![Orchestrator-workers coordination](../images/orch.jpg){width="80%"}
+
+# Use Cases
+
+Orchestrator-Workers shines in complex scenarios requiring very different models. Example:
+
+- You found on [Hugging Face](https://huggingface.co/models?pipeline_tag=text-classification&sort=downloads) a model specialized in Political Bias Detection, another in Misinformation Detection, and another in Hate Speech Detection.
+- You also want to extract summaries from the texts.
+- You create an orchestrator agent that:
+  - Analyzes the input text and decides which specialized worker agents to deploy based on content
+  - Delegates tasks to the appropriate worker agents
+  - Collects and synthesizes their outputs into a comprehensive report
+- Each worker agent uses its specialized model to analyze the text for its specific focus area.

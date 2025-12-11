@@ -1,0 +1,44 @@
+---
+title: "Pattern 6: Autonomous Agent"
+subtitle: "Self-Directed Goal Pursuit"
+---
+
+## What Is This Pattern?
+
+Autonomous Agent is the most advanced pattern - a self-directed AI that can plan its own approach, use tools, and iterate toward a goal with minimal human guidance. Think of it like giving a reporter an assignment and letting them figure out the best investigative path.
+
+Unlike other patterns where you define the workflow, an autonomous agent decides its own next steps based on what it discovers. It can search databases, read documents, reason about findings, and determine when it has sufficient information.
+
+It's, in my opinion, the only one I don't think we should be using :).
+
+## How It Works
+
+### Conceptual Overview
+
+An autonomous agent receives a goal, creates its own plan, uses available tools to gather information, reflects on progress, and iteratively works toward completion - all with minimal human intervention.
+
+### Architecture Diagram
+
+```{mermaid}
+%%| fig-width: 8
+%%| fig-cap: "Autonomous Agent: Self-Directed Goal Pursuit"
+
+graph TB
+    In[Goal]:::input --> Agent[Agent<br/>Planning]:::llm
+    Agent --> Decision{Complete?}
+    Decision -->|No| Tools[Tool Use]:::llm
+    Tools --> Agent
+    Decision -->|Yes| Out[Output]:::output
+
+    classDef input fill:#8B4444,stroke:#6B3333,color:#fff
+    classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
+    classDef output fill:#8B4444,stroke:#6B3333,color:#fff
+```
+
+![Autonomous agent operation](../images/auto.jpg){width="80%"}
+
+# Use Cases
+
+Autonomous Agent is ideal for complex, open-ended tasks where the path to completion isn't predefined.
+
+The outputs can be very opaque and difficult to control. The only case where I have used it was with Claude Code to [find hidden APIs](https://ruibarros.me/blog/finding-hidden-apis-using-ai).

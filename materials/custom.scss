@@ -1,0 +1,161 @@
+/*-- scss:defaults --*/
+
+// Typography - matching ruibarros.me
+$font-family-sans-serif: 'Geist', -apple-system, BlinkMacSystemFont, sans-serif !default;
+$font-family-monospace: 'Geist Mono', monospace !default;
+$headings-font-family: 'ITC Garamond Std Light Narrow', serif !default;
+
+// Colors - from variables.css
+$primary: #3eb0ef !default;
+$body-color: #15171a !default;
+$body-bg: #ffffff !default;
+$link-color: $body-color !default;
+$border-color: #000000 !default;
+
+// Grays
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-600: #738a94 !default;
+$gray-900: #212529 !default;
+
+// Typography scale
+$font-size-base: 1rem !default;
+$h1-font-size: 3rem !default;        // 48px
+$h2-font-size: 2.25rem !default;     // 36px
+$h3-font-size: 1.875rem !default;    // 30px
+$h4-font-size: 1.5rem !default;      // 24px
+$h5-font-size: 1.25rem !default;     // 20px
+$h6-font-size: 1.125rem !default;    // 18px
+
+// Line heights
+$line-height-base: 1.5 !default;
+$headings-line-height: 1.25 !default;
+
+// Spacing
+$spacer: 1rem !default;
+
+// Borders - subtle rounding except where we want sharp
+$border-radius: 0 !default;
+$border-radius-sm: 0 !default;
+$border-radius-lg: 0 !default;
+
+// Shadows - subtle except on interactive elements
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !default;
+$box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05) !default;
+$box-shadow-lg: 0 4px 6px rgba(0, 0, 0, 0.1) !default;
+
+/*-- scss:rules --*/
+
+// Headings - elegant Garamond
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+  font-weight: 400;
+  line-height: $headings-line-height;
+  letter-spacing: -0.02em;
+}
+
+// Focus states
+a, button, input, select, textarea {
+  &:focus-visible {
+    outline: 2px solid $primary;
+    outline-offset: 2px;
+  }
+}
+
+// Tables - cleaner styling
+table {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  th {
+    background-color: $gray-100;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 0.75rem;
+    font-weight: 600;
+  }
+
+  td {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 0.75rem;
+  }
+}
+
+// Mermaid diagrams - subtle frame with responsive overflow handling
+.mermaid {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 3px solid $primary;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  margin: 2rem 0;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+// Callout boxes - left border accent
+.callout {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+
+  &.callout-note {
+    border-left: 3px solid $primary;
+    background-color: rgba(62, 176, 239, 0.05);
+  }
+
+  &.callout-warning {
+    border-left: 3px solid #ffc107;
+    background-color: rgba(255, 193, 7, 0.05);
+  }
+
+  &.callout-important {
+    border-left: 3px solid #dc3545;
+    background-color: rgba(220, 53, 69, 0.05);
+  }
+}
+
+// Buttons - subtle but clear
+.btn {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  font-family: $font-family-sans-serif;
+  font-weight: 500;
+  transition: all 150ms ease;
+  background-color: #ffffff;
+
+  &:hover {
+    border-color: $primary;
+    background-color: rgba(62, 176, 239, 0.05);
+  }
+}
+
+// TOC - clean sidebar
+#TOC {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: $gray-100;
+
+  ul {
+    list-style: none;
+    padding-left: 1rem;
+  }
+}
+
+// Accessibility - respect prefers-reduced-motion
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+// Mobile typography scaling - prevent oversized headings on small screens
+@media (max-width: 768px) {
+  h1 { font-size: 2rem !important; }      // 32px instead of 48px
+  h2 { font-size: 1.75rem !important; }   // 28px instead of 36px
+  h3 { font-size: 1.5rem !important; }    // 24px instead of 30px
+  h4 { font-size: 1.25rem !important; }   // 20px instead of 24px
+  h5 { font-size: 1.125rem !important; }  // 18px instead of 20px
+  h6 { font-size: 1rem !important; }      // 16px instead of 18px
+}

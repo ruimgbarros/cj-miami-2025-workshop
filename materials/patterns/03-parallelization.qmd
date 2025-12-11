@@ -1,0 +1,53 @@
+---
+title: "Pattern 3: Parallelization"
+subtitle: "Simultaneous Multi-Source Processing"
+---
+
+## What Is This Pattern?
+
+Parallelization is like sending multiple reporters to research different aspects of a story simultaneously. Instead of running AI tasks one after another, you run them all at the same time, then combine the results.
+
+It differs from routing because instead of directing input to different paths based on classification, it launches multiple independent AI calls in parallel to gather diverse insights or data points.
+
+## How It Works
+
+### Conceptual Overview
+
+Launch multiple independent AI calls simultaneously across different sources, perspectives, or data sets, then synthesize the results into a unified output.
+
+### Architecture Diagram
+
+```{mermaid}
+%%| fig-width: 8
+%%| fig-cap: "Parallelization: Simultaneous Multi-Source Processing"
+
+graph TB
+    In[Input]:::input --> Dispatcher[Dispatcher]:::llm
+
+    Dispatcher --> LLM1[LLM Call 1]:::llm
+    Dispatcher --> LLM2[LLM Call 2]:::llm
+    Dispatcher --> LLM3[LLM Call 3]:::llm
+    Dispatcher --> LLM4[LLM Call 4]:::llm
+
+    LLM1 --> Synth[Synthesizer]:::llm
+    LLM2 --> Synth
+    LLM3 --> Synth
+    LLM4 --> Synth
+
+    Synth --> Out[Output]:::output
+
+    classDef input fill:#8B4444,stroke:#6B3333,color:#fff
+    classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
+    classDef output fill:#8B4444,stroke:#6B3333,color:#fff
+```
+
+![Parallel processing](../images/parall.jpg){width="80%"}
+
+# Use Cases
+
+Parallelization shines when you need a comprehensive view from multiple angles. I've only used this pattern as a "testing ground" for potential biases in a story:
+
+- Created different personas;
+- Asked each persona to analyze the same news article;
+- Synthesized the findings to get possible biases that I'm not seeing myself;
+

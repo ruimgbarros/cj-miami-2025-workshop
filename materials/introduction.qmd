@@ -1,0 +1,127 @@
+---
+title: "AI Agents for Data Journalism"
+subtitle: "Computation + Journalism Symposium 2025 workshop"
+---
+
+If you have been following the buzz around AI, genAI and LLMs, you have likely heard about AI agents. For a while, I believed it was just another buzzword for prompt engineering. Some kind of "roleplay" or persona prompting where you would say to an LLM on how to behave and it would follow that role.
+
+And I guess there's nothing wrong with that, but for a while my mind was elsewhere. I've been a data journalist for over ten years. And experience has taught me to keep an eye on new technologies while always asking myself: "How can this be useful for journalism?"
+
+When I first used an LLM for a story, I realized that, contrary to other Silicon Valley buzz words, AI agents were actually something different. Something that could really help journalists in their work.
+
+Or, in other words:  I stopped asking myself on how to use this as a product to speed workflows or making things easier and started asking myself: **"What kind of stories we can now do because we now have this technology?"**.
+
+And that's when agents clicked for me.
+
+## But first, a bit of history
+
+![Workshop context](images/intro.jpg){width="80%"}
+
+At first, there was light. Then there was the computer. And pretty soon as those things started to be reachable to reporters, people started wondering how they could use it for new kinds of reporting.
+
+That made journalists start to take interest in data. And in programming. And because no one really knew pretty well what they were doing, they started to experiment. To tinker. To hack. And to share online.
+
+There was, although, a problem. Computers, they are great. But they used to be quite literal: you either gave them the precise, proper instructions, or they would fail catastrophically.
+
+That also meant that you either had structured data, or you couldn't do the simple tricks of data journalism.
+
+
+## Why does AI change this?
+In my opinion, AI changes this because it brings a new level of flexibility to the table. Sure, you still need labels to count. PDFs aren't going to parse themselves. But what used to require rigid, precise instructions, can now be done with a degree of "freedom".
+
+If software developement was solid, AI is a [fluid gooey thing](https://wattenberger.com/thoughts/hard-and-soft) that can adapt to different situations. It can understand context, it can "read" and "interpret" unstructured data. And turn it into structured data.
+
+![AI as fluid software](images/goey_software.jpg){width="80%"}
+
+## Got it, but what are agents and why should I care?
+
+Because if using an LLM is like asking something and get an answer back, using agents allows us to prepare more complex workflows.
+
+Think of simple prompting like asking a colleague a single question: "What's in this budget document?" You get one answer, and that's it.
+
+Agents is more like assembling a team that will work on a set of tasks.
+
+They can:
+- Figure out what information they need;
+- Classify the information;
+- Write down information into a database;
+- Decide what to do next based on that information;
+
+The difference? Simple prompting is a single request-response. Agents can plan, use tools, remember context, and iterate.
+
+### Key Characteristics of Agents
+
+What makes something an "agent" rather than just a fancy prompt? Here are the key capabilities:
+
+1. **Planning**: Can break down complex tasks into steps. Instead of trying to do everything at once, an agent might think "First I'll extract the numbers, then compare them, then look for anomalies."
+
+2. **Tool Use**: Can search databases, call APIs, run calculations, access external information. Not limited to what's in its training data or your prompt.
+
+3. **Memory**: Tracks what it's learned and avoids repeating work. Remembers the context of the investigation across multiple interactions.
+
+4. **Iteration**: Refines its approach based on what it discovers. If initial search turns up nothing, it tries a different angle.
+
+5. **Decision-Making**: Chooses next actions based on context. Knows when to dig deeper vs. when to move on.
+
+# The Six Patterns
+
+This workshop is heavily inspired by [this post](https://www.anthropic.com/engineering/building-effective-agents) from Anthropic.
+
+As it often happens, it gives us structure to think. If you have tinkered with LLM's before with code, you might have already tried some of these patterns without knowing it.
+
+Here are the six patterns we'll explore:
+
+1. **[Prompt Chaining](patterns/01-prompt-chaining.qmd)**
+Like an assembly line. One AI step extracts data, the next summarizes, the next identifies angles - each building on the previous.
+
+2. **[Routing](patterns/02-routing.qmd)**
+Smart triage system that classifies incoming data and routes it to the right worflow.
+
+3. **[Parallelization](patterns/03-parallelization.qmd)**
+A workflow that distributes tasks across multiple LLM calls simultaneously.
+
+4. **[Orchestrator-Workers](patterns/04-orchestrator-workers.qmd)**
+A central agent coordinates specialist agents.
+
+5. **[Evaluator-Optimizer](patterns/05-evaluator-optimizer.qmd)**
+Iterative quality control. One AI generates content, another critiques it, first one revises based on feedback - continues until quality standards are met.
+
+6. **[Autonomous Agent](patterns/06-autonomous-agent.qmd)**
+Self-directed agent that does it end-to-end.
+
+Are all these patterns useful for journalism? Not necessarily. But to be completly honest with you, I feel I have just scratched the surface of what is possible.
+
+The main goal of this workshop is to give you the foundation blocks for you to try this.
+
+## ⚠️ Warning: 
+I have my own beliefs about AI. Some of them is that there's no journalistic usage **when there's no human in the loop**.
+
+I also believe that it's easy to entrench ourselves in either AI doomers or boosters camps.
+
+As usual, I think it's good to keep one foot on each side.
+
+Here are my main ethical guidelines for using AI in journalism:
+
+- **Human Oversight Always**: AI assists journalists, it doesn't replace them. Every output needs human review.
+- **Transparency**: Disclose when AI was used in your reporting process. Readers deserve to know. When possible, publish the prompts used.
+- **Verification**: Always verify AI findings before publication. If you can't verify it, don't publish it.
+- **Attribution**: Credit your sources, not the AI. The AI is how you found the information, not the source.
+- **Privacy**: Be careful what information you put in prompts. Sensitive data stays sensitive.
+
+## Prerequisites
+
+I promised the workshop is open to everyone and I mean it. If you have ever used R, you will be able to follow along.
+
+I intend to replicate the examples in Python and JavaScript later, but for now R is the main language.
+
+If you have never used R before, don't worry. The concepts are explained in plain English. And we will be building the use cases together.
+
+### But I want to follow along!
+
+Cool! Here are the things you need:
+
+- [R](https://cran.r-project.org/mirrors.html) installed on your computer;
+- An IDE; I'm using [Positron](https://positron.posit.co/);
+- An OpenRouter API key. You can get one here [OpenRouter](https://openrouter.ai/). OpenRouter is a pretty cool service that allows you to use different open source LLMs through a single API. The free tier should be enough for the workshop.
+
+

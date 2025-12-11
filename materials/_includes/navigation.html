@@ -1,0 +1,108 @@
+<nav class="page-navigation" aria-label="Page navigation">
+  <div class="nav-wrapper">
+    <a href="#" class="nav-button nav-prev" data-nav="prev" style="visibility: hidden;">
+      <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M15 18l-6-6 6-6"/>
+      </svg>
+      <div class="nav-content">
+        <span class="nav-label">Previous</span>
+        <span class="nav-title"></span>
+      </div>
+    </a>
+
+    <a href="#" class="nav-button nav-next" data-nav="next" style="visibility: hidden;">
+      <div class="nav-content">
+        <span class="nav-label">Next</span>
+        <span class="nav-title"></span>
+      </div>
+      <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M9 18l6-6-6-6"/>
+      </svg>
+    </a>
+  </div>
+
+  <div class="progress-indicator" role="progressbar" aria-label="Workshop progress">
+    <div class="progress-bar" style="width: 0%"></div>
+    <div class="progress-label"></div>
+  </div>
+</nav>
+
+<script>
+// Navigation structure
+const pages = [
+  { href: 'introduction.html', title: 'Introduction', short: 'Intro' },
+  { href: 'patterns/01-prompt-chaining.html', title: 'Pattern 1: Prompt Chaining', short: 'Prompt Chaining' },
+  { href: 'patterns/02-routing.html', title: 'Pattern 2: Routing', short: 'Routing' },
+  { href: 'patterns/03-parallelization.html', title: 'Pattern 3: Parallelization', short: 'Parallelization' },
+  { href: 'patterns/04-orchestrator-workers.html', title: 'Pattern 4: Orchestrator-Workers', short: 'Orchestrator-Workers' },
+  { href: 'patterns/05-evaluator-optimizer.html', title: 'Pattern 5: Evaluator-Optimizer', short: 'Evaluator-Optimizer' },
+  { href: 'patterns/06-autonomous-agent.html', title: 'Pattern 6: Autonomous Agent', short: 'Autonomous Agent' }
+];
+
+// Find current page index
+function getCurrentPageIndex() {
+  const path = window.location.pathname;
+  return pages.findIndex(p => path.endsWith(p.href) || path.endsWith(p.href.replace('.html', '.qmd')));
+}
+
+// Update navigation
+document.addEventListener('DOMContentLoaded', () => {
+  const currentIndex = getCurrentPageIndex();
+
+  if (currentIndex === -1) return; // Not found
+
+  const prevBtn = document.querySelector('.nav-prev');
+  const nextBtn = document.querySelector('.nav-next');
+  const progressBar = document.querySelector('.progress-bar');
+  const progressLabel = document.querySelector('.progress-label');
+
+  // Setup prev button
+  if (currentIndex > 0) {
+    const prev = pages[currentIndex - 1];
+    prevBtn.href = prev.href;
+    prevBtn.querySelector('.nav-title').textContent = prev.short;
+    prevBtn.style.visibility = 'visible';
+  }
+
+  // Setup next button
+  if (currentIndex < pages.length - 1) {
+    const next = pages[currentIndex + 1];
+    nextBtn.href = next.href;
+    nextBtn.querySelector('.nav-title').textContent = next.short;
+    nextBtn.style.visibility = 'visible';
+  }
+
+  // Update progress
+  const progress = ((currentIndex + 1) / pages.length) * 100;
+  progressBar.style.width = `${progress}%`;
+
+  // Progress label - with clearer context
+  if (currentIndex === 0) {
+    progressLabel.textContent = 'Progress: Start';
+  } else if (currentIndex === pages.length - 1) {
+    progressLabel.textContent = 'Progress: Complete';
+  } else {
+    progressLabel.textContent = `Progress: Pattern ${currentIndex} of ${pages.length - 1}`;
+  }
+
+  // Update aria attributes for accessibility
+  const progressIndicator = document.querySelector('.progress-indicator');
+  progressIndicator.setAttribute('aria-valuenow', currentIndex + 1);
+  progressIndicator.setAttribute('aria-valuemin', 1);
+  progressIndicator.setAttribute('aria-valuemax', pages.length);
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.ctrlKey || e.metaKey || e.shiftKey) return;
+
+  const currentIndex = getCurrentPageIndex();
+  if (currentIndex === -1) return;
+
+  if (e.key === 'ArrowLeft' && currentIndex > 0) {
+    window.location.href = pages[currentIndex - 1].href;
+  } else if (e.key === 'ArrowRight' && currentIndex < pages.length - 1) {
+    window.location.href = pages[currentIndex + 1].href;
+  }
+});
+</script>

@@ -1,0 +1,44 @@
+---
+title: "Pattern 2: Routing"
+subtitle: "Classification and Workflow Direction"
+---
+
+## What Is This Pattern?
+
+Routing is like having a smart assignment editor that instantly categorizes incoming content and sends it to the right workflow. Instead of processing everything the same way, routing uses AI to classify content first, then directs it to specialized handling paths.
+
+
+## How It Works
+
+### Conceptual Overview
+
+Instead of manually sorting through incoming content, an initial AI call classifies the input and determines which processing path to follow.
+
+### Architecture Diagram
+
+```{mermaid}
+%%| fig-width: 8
+%%| fig-cap: "Routing: Classification and Workflow Direction"
+
+graph TD
+    In[Input]:::input --> LLM1[LLM Call 1<br/>Classifier]:::llm
+    LLM1 -->|Category A| LLM2[LLM Call 2]:::llm
+    LLM1 -->|Category B| LLM3[LLM Call 3]:::llm
+    LLM1 -->|Category C| Exit[Exit]:::output
+
+    LLM2 --> Out1[Output]:::output
+    LLM3 --> Out2[Output]:::output
+
+    classDef input fill:#8B4444,stroke:#6B3333,color:#fff
+    classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
+    classDef output fill:#8B4444,stroke:#6B3333,color:#fff
+```
+
+![Routing workflow](../images/routing.jpg){width="80%"}
+
+# Use Cases
+
+Routing is perfect when you have diverse content that needs different handling. One example where I applied this pattern was in fact-checking TikTok misinformation in science related videos:
+
+- Incoming videos were first classified by topic (e.g., health, environment, technology).
+- Each topic had a specialized fact-checking workflow tailored to its unique challenges.

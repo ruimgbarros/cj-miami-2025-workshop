@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: ../docs
+  resources:
+    - fonts/**
+
+website:
+  title: "AI Agents for Data Journalism"
+  navbar:
+    background: white
+    left:
+      - text: "CJ Miami 2025 Workshop"
+        href: introduction.qmd
+
+  sidebar:
+    style: "floating"
+    background: light
+    collapse-level: 1
+    contents:
+      - text: "Introduction"
+        href: introduction.qmd
+      - section: "Patterns"
+        contents:
+          - text: "1. Prompt Chaining"
+            href: patterns/01-prompt-chaining.qmd
+          - text: "2. Routing"
+            href: patterns/02-routing.qmd
+          - text: "3. Parallelization"
+            href: patterns/03-parallelization.qmd
+          - text: "4. Orchestrator-Workers"
+            href: patterns/04-orchestrator-workers.qmd
+          - text: "5. Evaluator-Optimizer"
+            href: patterns/05-evaluator-optimizer.qmd
+          - text: "6. Autonomous Agent"
+            href: patterns/06-autonomous-agent.qmd
+
+format:
+  html:
+    theme: custom.scss
+    toc: true
+    toc-depth: 3
+    code-fold: show
+    code-tools: true
+    code-copy: true
+    smooth-scroll: true
+    css:
+      - styles.css
+      - animations.css
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="/fonts/fonts.css">
+    include-before-body:
+      - _includes/pixel-decoration.html
+    include-after-body:
+      - _includes/navigation.html

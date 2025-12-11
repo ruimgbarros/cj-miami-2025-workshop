@@ -48,7 +48,7 @@ format:
       - animations.css
     include-in-header:
       - text: |
-          <link rel="stylesheet" href="/fonts/fonts.css">
+          <link rel="stylesheet" href="fonts/fonts.css">
     include-before-body:
       - _includes/pixel-decoration.html
     include-after-body:

@@ -1,0 +1,4662 @@
+{
+  "metadata": {
+    "title": "Unemployment by Demographics (2019-2024)",
+    "dateRange": ["2019-01", "2024-12"],
+    "dimensions": {
+      "race": ["All Races", "White", "Black", "Hispanic", "All other races"],
+      "gender": ["Men and Women", "Men", "Women"],
+      "age": ["All ages", "16-24", "25-44", "45 and older"],
+      "education": ["All levels of education", "Not high school grad", "High school graduate", "College graduate"]
+    }
+  },
+  "data": {
+    "race": {
+      "All Races": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 7
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 13
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 12.2
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 11.4
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 10.7
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 9.9
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 9.1
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 6.8
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 5
+        }
+      ],
+      "White": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 3.4
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 6
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 12
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 11.2
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 10.3
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 9.5
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 8.6
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 6.9
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 6.1
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 4.3
+        }
+      ],
+      "Black": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 6.3
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 6.5
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 6.7
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 6.5
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 6.5
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 6.8
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 6.5
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 6.9
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 6.2
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 6.5
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 6.4
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 6.4
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 9.6
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 16.8
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 15.9
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 15
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 14.2
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 13.3
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 12.4
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 11.5
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 10.6
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 9.8
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 7.7
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 7.9
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 8.1
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 7.3
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 7.9
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 7.7
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 7.7
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 7.3
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 7.7
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 7.7
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 7.9
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 8.1
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 7.9
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 7.7
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 7.4
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 7.2
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 7.3
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 7.2
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 7.4
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 7.2
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 7.3
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 7.2
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 7.7
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 7.7
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 7.2
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 7.1
+        }
+      ],
+      "Hispanic": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 8.8
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 18.2
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 16.8
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 15.4
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 14.1
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 12.7
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 11.3
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 9.9
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 8.6
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 7.2
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 6.2
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 6.1
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 6.1
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 6.1
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 6
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 6.1
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 5.4
+        }
+      ],
+      "All other races": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 6.9
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 14
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 13
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 11.9
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 10.9
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 9.8
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 8.8
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 6.7
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 4.7
+        }
+      ]
+    },
+    "gender": {
+      "Men and Women": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 7
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 13
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 12.2
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 11.4
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 10.7
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 9.9
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 9.1
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 6.8
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 6.1
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 6.2
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 5.5
+        }
+      ],
+      "Men": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 6.8
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 12.5
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 11.7
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 11
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 10.2
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 9.5
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 8.7
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 7.2
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 6.4
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 5.5
+        }
+      ],
+      "Women": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 7.9
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 15.5
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 14.4
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 13.4
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 12.3
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 11.3
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 10.2
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 9.2
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 8.1
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 7.1
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 6.2
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 6
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 6
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 6
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 6.3
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 5.7
+        }
+      ]
+    },
+    "age": {
+      "All ages": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 7
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 13
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 12.2
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 11.4
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 10.7
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 9.9
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 9.1
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 6.8
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 6.2
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 5.4
+        }
+      ],
+      "16-24": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 8.5
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 8.5
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 8.5
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 8.9
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 8.8
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 8.6
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 8.4
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 8.4
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 8.7
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 13.1
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 24
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 22.6
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 21.2
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 19.8
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 18.4
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 17
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 15.6
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 14.2
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 12.8
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 10.2
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 10.2
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 10.3
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 10.6
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 10.3
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 9.7
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 10
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 10.5
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 10
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 10.5
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 10.2
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 10.4
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 9.8
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 10.5
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 9.7
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 10.1
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 10.5
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 10.6
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 10.2
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 9.8
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 10.4
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 10.2
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 10.4
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 10.5
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 9.7
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 10
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 9.7
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 9.7
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 10
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 9.8
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 9.5
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 10
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 9.6
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 9.8
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 9.7
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 10.3
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 10.5
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 9.5
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 10.1
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 10
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 9.9
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 9.9
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 9.9
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 9.9
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 10.3
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 9.2
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 10
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 10
+        }
+      ],
+      "25-44": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 3.4
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 6
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 11
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 10.3
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 9.7
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 9
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 7.7
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 7
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 6.4
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 4.3
+        }
+      ],
+      "45 and older": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 3
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 2.9
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 3.2
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 3
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 3.1
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 3.2
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 3
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 10
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 9.3
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 8.7
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 8.1
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 7.4
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 6.8
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 6.1
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 4
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 3.2
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 3
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 3.4
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 3.7
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 3.9
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 3.2
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 3.1
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 3.6
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 3.2
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 3.1
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 3.6
+        }
+      ]
+    },
+    "education": {
+      "All levels of education": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 4.1
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 4.4
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 4.5
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 7
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 13
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 12.2
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 11.4
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 10.7
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 9.9
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 9.1
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 6.8
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 6.1
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 5.8
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 5.7
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 4.6
+        }
+      ],
+      "Not high school grad": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 6.8
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 7
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 6.9
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 6.8
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 6.9
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 6.7
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 7
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 6.6
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 6.9
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 6.9
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 6.6
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 7.2
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 10
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 17.5
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 16.6
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 15.7
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 14.8
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 13.8
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 12.9
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 12
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 11.1
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 10.2
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 8.1
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 8.1
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 8.2
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 7.4
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 8.6
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 8.2
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 8.4
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 8.3
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 7.9
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 7.9
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 8.2
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 7.3
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 8.2
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 8.2
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 7.7
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 8.2
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 7.8
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 7.9
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 8.2
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 7.9
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 8.1
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 7.9
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 7.9
+        }
+      ],
+      "High school graduate": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 7.2
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 13.5
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 12.7
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 11.8
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 11
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 10.1
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 9.3
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 8.4
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 7.6
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 6.8
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 5.4
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 4.6
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 5.2
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 5.5
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 5.6
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 4.9
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 5
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 5.1
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 4.7
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 5.2
+        }
+      ],
+      "College graduate": [
+        {
+          "date": "2019-01-01",
+          "unemployment_rate": 2.4
+        },
+        {
+          "date": "2019-02-01",
+          "unemployment_rate": 2.5
+        },
+        {
+          "date": "2019-03-01",
+          "unemployment_rate": 2.6
+        },
+        {
+          "date": "2019-04-01",
+          "unemployment_rate": 2.4
+        },
+        {
+          "date": "2019-05-01",
+          "unemployment_rate": 2.5
+        },
+        {
+          "date": "2019-06-01",
+          "unemployment_rate": 2.6
+        },
+        {
+          "date": "2019-07-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2019-08-01",
+          "unemployment_rate": 2.6
+        },
+        {
+          "date": "2019-09-01",
+          "unemployment_rate": 2.1
+        },
+        {
+          "date": "2019-10-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2019-11-01",
+          "unemployment_rate": 2.4
+        },
+        {
+          "date": "2019-12-01",
+          "unemployment_rate": 2.3
+        },
+        {
+          "date": "2020-01-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-02-01",
+          "unemployment_rate": 2
+        },
+        {
+          "date": "2020-03-01",
+          "unemployment_rate": 4.2
+        },
+        {
+          "date": "2020-04-01",
+          "unemployment_rate": 8
+        },
+        {
+          "date": "2020-05-01",
+          "unemployment_rate": 7.5
+        },
+        {
+          "date": "2020-06-01",
+          "unemployment_rate": 6.9
+        },
+        {
+          "date": "2020-07-01",
+          "unemployment_rate": 6.4
+        },
+        {
+          "date": "2020-08-01",
+          "unemployment_rate": 5.9
+        },
+        {
+          "date": "2020-09-01",
+          "unemployment_rate": 5.3
+        },
+        {
+          "date": "2020-10-01",
+          "unemployment_rate": 4.8
+        },
+        {
+          "date": "2020-11-01",
+          "unemployment_rate": 4.3
+        },
+        {
+          "date": "2020-12-01",
+          "unemployment_rate": 3.8
+        },
+        {
+          "date": "2021-01-01",
+          "unemployment_rate": 2.9
+        },
+        {
+          "date": "2021-02-01",
+          "unemployment_rate": 3.2
+        },
+        {
+          "date": "2021-03-01",
+          "unemployment_rate": 2.9
+        },
+        {
+          "date": "2021-04-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2021-05-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2021-06-01",
+          "unemployment_rate": 3.1
+        },
+        {
+          "date": "2021-07-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2021-08-01",
+          "unemployment_rate": 3.5
+        },
+        {
+          "date": "2021-09-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2021-10-01",
+          "unemployment_rate": 3.2
+        },
+        {
+          "date": "2021-11-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2021-12-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2022-01-01",
+          "unemployment_rate": 2.8
+        },
+        {
+          "date": "2022-02-01",
+          "unemployment_rate": 2.6
+        },
+        {
+          "date": "2022-03-01",
+          "unemployment_rate": 2.9
+        },
+        {
+          "date": "2022-04-01",
+          "unemployment_rate": 3.2
+        },
+        {
+          "date": "2022-05-01",
+          "unemployment_rate": 3.1
+        },
+        {
+          "date": "2022-06-01",
+          "unemployment_rate": 2.9
+        },
+        {
+          "date": "2022-07-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2022-08-01",
+          "unemployment_rate": 3.4
+        },
+        {
+          "date": "2022-09-01",
+          "unemployment_rate": 2.6
+        },
+        {
+          "date": "2022-10-01",
+          "unemployment_rate": 2.8
+        },
+        {
+          "date": "2022-11-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2022-12-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2023-01-01",
+          "unemployment_rate": 3
+        },
+        {
+          "date": "2023-02-01",
+          "unemployment_rate": 3.1
+        },
+        {
+          "date": "2023-03-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2023-04-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2023-05-01",
+          "unemployment_rate": 2.3
+        },
+        {
+          "date": "2023-06-01",
+          "unemployment_rate": 2.8
+        },
+        {
+          "date": "2023-07-01",
+          "unemployment_rate": 2.6
+        },
+        {
+          "date": "2023-08-01",
+          "unemployment_rate": 2.9
+        },
+        {
+          "date": "2023-09-01",
+          "unemployment_rate": 3.1
+        },
+        {
+          "date": "2023-10-01",
+          "unemployment_rate": 2.8
+        },
+        {
+          "date": "2023-11-01",
+          "unemployment_rate": 2.8
+        },
+        {
+          "date": "2023-12-01",
+          "unemployment_rate": 2.8
+        },
+        {
+          "date": "2024-01-01",
+          "unemployment_rate": 2.9
+        },
+        {
+          "date": "2024-02-01",
+          "unemployment_rate": 3
+        },
+        {
+          "date": "2024-03-01",
+          "unemployment_rate": 2.8
+        },
+        {
+          "date": "2024-04-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2024-05-01",
+          "unemployment_rate": 3.3
+        },
+        {
+          "date": "2024-06-01",
+          "unemployment_rate": 2.9
+        },
+        {
+          "date": "2024-07-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2024-08-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2024-09-01",
+          "unemployment_rate": 2.5
+        },
+        {
+          "date": "2024-10-01",
+          "unemployment_rate": 2.6
+        },
+        {
+          "date": "2024-11-01",
+          "unemployment_rate": 2.7
+        },
+        {
+          "date": "2024-12-01",
+          "unemployment_rate": 2.4
+        }
+      ]
+    }
+  }
+}

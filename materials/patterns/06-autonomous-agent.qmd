@@ -3,6 +3,8 @@ title: "Pattern 6: Autonomous Agent"
 subtitle: "Self-Directed Goal Pursuit"
 ---
 
+![Autonomous agent operation](../images/auto.jpg){width="80%"}
+
 ## What Is This Pattern?
 
 Autonomous Agent is the most advanced pattern - a self-directed AI that can plan its own approach, use tools, and iterate toward a goal with minimal human guidance. Think of it like giving a reporter an assignment and letting them figure out the best investigative path.
@@ -34,8 +36,6 @@ graph TB
     classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
     classDef output fill:#8B4444,stroke:#6B3333,color:#fff
 ```
-
-![Autonomous agent operation](../images/auto.jpg){width="80%"}
 
 # Use Cases
 

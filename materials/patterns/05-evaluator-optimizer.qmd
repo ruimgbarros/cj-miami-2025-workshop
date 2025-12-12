@@ -3,6 +3,8 @@ title: "Pattern 5: Evaluator-Optimizer"
 subtitle: "Iterative Quality Improvement"
 ---
 
+![Generation-evaluation loop](../images/gen_eval.jpg){width="80%"}
+
 ## What Is This Pattern?
 
 Evaluator-Optimizer is like having a writer and editor work together iteratively. One AI generates content, another evaluates it and provides feedback, and the first AI revises based on that feedback. This cycle continues until quality standards are met.
@@ -32,8 +34,6 @@ graph LR
     classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
     classDef output fill:#8B4444,stroke:#6B3333,color:#fff
 ```
-
-![Generation-evaluation loop](../images/gen_eval.jpg){width="80%"}
 
 # Use Cases
 

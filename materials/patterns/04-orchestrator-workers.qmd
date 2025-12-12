@@ -3,6 +3,8 @@ title: "Pattern 4: Orchestrator-Workers"
 subtitle: "Coordinated Specialist Agents"
 ---
 
+![Orchestrator-workers coordination](../images/orch.jpg){width="80%"}
+
 ## What Is This Pattern?
 
 Orchestrator-Workers is like an editor coordinating multiple specialized reporters. A central "orchestrator" agent delegates tasks to "worker" agents with specific expertise, monitors their progress, and integrates their findings into a coherent final product.
@@ -40,8 +42,6 @@ graph TB
     classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
     classDef output fill:#8B4444,stroke:#6B3333,color:#fff
 ```
-
-![Orchestrator-workers coordination](../images/orch.jpg){width="80%"}
 
 # Use Cases
 

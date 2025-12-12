@@ -3,6 +3,8 @@ title: "Pattern 3: Parallelization"
 subtitle: "Simultaneous Multi-Source Processing"
 ---
 
+![Parallel processing](../images/parall.jpg){width="80%"}
+
 ## What Is This Pattern?
 
 Parallelization is like sending multiple reporters to research different aspects of a story simultaneously. Instead of running AI tasks one after another, you run them all at the same time, then combine the results.
@@ -40,8 +42,6 @@ graph TB
     classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
     classDef output fill:#8B4444,stroke:#6B3333,color:#fff
 ```
-
-![Parallel processing](../images/parall.jpg){width="80%"}
 
 # Use Cases
 

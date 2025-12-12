@@ -3,6 +3,8 @@ title: "Pattern 1: Prompt Chaining"
 subtitle: "Sequential Document Analysis Pipeline"
 ---
 
+![Prompt chaining in action](../images/prompt_chain.jpg){width="80%"}
+
 ## What Is This Pattern?
 
 Prompt chaining is like an assembly line for processing information. Instead of asking AI to do everything at once (which often leads to errors or incomplete analysis), you break the work into sequential steps where each step's output becomes the next step's input.
@@ -31,8 +33,6 @@ graph LR
     classDef llm fill:#4A7C59,stroke:#3A6B49,color:#fff
     classDef output fill:#8B4444,stroke:#6B3333,color:#fff
 ```
-
-![Prompt chaining in action](../images/prompt_chain.jpg){width="80%"}
 
 # Use Cases
 

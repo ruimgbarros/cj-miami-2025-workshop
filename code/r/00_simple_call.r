@@ -1,5 +1,4 @@
 # Load required libraries
-#install.packages("mini007")
 source("./code/r/utils/helpers.R")
 
 key <- "put_your_api_key_here"
